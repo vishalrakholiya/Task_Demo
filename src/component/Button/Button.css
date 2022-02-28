@@ -1,0 +1,10 @@
+.buttonDynmic{
+    border: none;
+    background-color: #0d9488;
+    color: white;
+    padding: 5px 15px;
+    width: 135px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-weight: bold;
+}

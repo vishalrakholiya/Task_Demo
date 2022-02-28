@@ -1,0 +1,50 @@
+.mainLoginDiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e7faf8;
+}
+.loginBox{
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.loginLeftSide{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(0deg, rgb(98, 219, 221) 0%, rgb(230, 204, 150) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginFormInput{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+.inputDiv{
+    margin: 10px 0;
+    width: 70%;
+}
+.loginHead{
+    color: #0d9488;
+    font-size: 25px;
+    text-align: center;
+}
+.liststyle{
+    width: 80%;
+}
+
+@media screen and (min-width: 250px ) and (max-width: 832px) {
+    .loginBox{
+        width: 100%;
+    }
+}
